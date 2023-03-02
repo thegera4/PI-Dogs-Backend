@@ -38,6 +38,7 @@ new Sequelize(
   `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/dogs`,
   { logging: false, native: false }
 );*/
+//PARA CORRER EN LOCAL
 /*
 const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/dogs`, {
   logging: false, // set to console.log to see the raw SQL queries
